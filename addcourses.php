@@ -16,8 +16,8 @@ if(isset($_POST['submit']))
             $coursehours=$_POST['hours'];
             $coursetype=$_POST['type'];
             $coursecost=$_POST['cost'];
-            $startdate=date("Y-m-d");
-            $enddate=date("Y-m-d");
+            $startdate=$_POST['start'];
+            $enddate=$_POST['end'];
           
 		 
 		
